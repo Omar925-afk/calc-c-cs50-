@@ -6,25 +6,25 @@ int main(void)
     string name = get_string("What is your name? ");
 
     // Print greeting
-    printf("Hello, %s!\n", name);
+    printf("Hello, %s\n", name);
 
-  long x=get_int(" x ");
-  long y=get_int(" y ");
+  int x=get_int(" x ");
+  int y=get_int(" y ");
    char operaction=get_char("operation (+,-,*,/): ");
-
+        float result;
          if(operaction=='+')
 
 
           {
 
-            printf("%ld",x+y);
+            printf("%f",x+y);
 
 
           }
 
           else if(operaction=='-')
          {
-            printf("%ld",x-y);
+            printf("%f",x-y);
 
           }
 
@@ -32,16 +32,17 @@ int main(void)
 
           else if(operaction=='*')
          {
-            printf("%ld",x*y);
+            printf("%f",x*y);
          }
 
           else if(operaction=='/')
          {
-            printf("%ld",x/y);
+            printf("%f  ",x/y);
          }
 
           else
          {
             printf("Invalid operation");
          }
+
         }
