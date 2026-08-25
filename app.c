@@ -1,24 +1,44 @@
-#include <stdio.h>
-#include <cs50.h>
+#include<stdio.h>
+#include<cs50.h>
 int main(void)
 {
+    // Prompt user for input
+    string name = get_string("What is your name? ");
 
-      int x = get_int("x: ");
-    int y = get_int("y: ");
-    char operation = get_char("Operation (+ or * or /): ");
+    // Print greeting
+    printf("Hello, %s!\n", name);
 
-    if (operation == '+')
-    {
-        printf("%i\n", x + y);
-    }
-    else if (operation == '*')
-    {
-        printf("%i\n", x * y);
-    }
-    else
-    {
-        printf("%i\n", x / y); 
+  int x=get_int(" x ");
+  int y=get_int(" y ");
+   char operaction=get_char("operation (+,-,*,/): ");
 
-}
-}
+         if(operachion=='+')
+         [
 
+            printf("%i",x+y);
+
+
+         ]
+
+          else if(operachion=='-')
+         {
+            printf("%i",x-y);
+
+          }
+
+
+
+          else if(operachion=='*')
+         {
+            printf("%i",x*y);
+         }
+
+          else if(operachion=='/')
+         {
+            printf("%i",x/y);
+         }
+
+          else
+         {
+            printf("Invalid operation");
+         }  
