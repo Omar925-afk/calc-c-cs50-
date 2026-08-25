@@ -7,7 +7,14 @@ int main(void)
 
 	  printf("Hello, %s\n", answer );
 
-	  if(x)
+	  if(x>y)
+	  {
+		  printf("x is greater than y\n");
+	  }
+	  else
+	  {
+		  printf("y is greater than x\n");
+	  }
 
 
 }
