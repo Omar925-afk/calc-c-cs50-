@@ -6,7 +6,7 @@ int main(void)
      int x = get_int("x: ");
      int y = get_int("y: ");
 
-       int answer = get_int("answer:, x+y or x*y: ");
+       int answer = get_int("x+y || x*y: ");
 
        if (x + y)
        {
