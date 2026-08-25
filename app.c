@@ -3,6 +3,19 @@
 int main(void)
 {
 
+
+{
+
+     string answer = get_string("what is ur name? ");
+
+	 printf("Hello, %s\n", answer );
+
+}
+
+
+
+
+
 int x =get_int("enter x\n ");
 int y=5;
 
