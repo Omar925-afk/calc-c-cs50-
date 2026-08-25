@@ -8,8 +8,8 @@ int main(void)
     // Print greeting
     printf("Hello, %s!\n", name);
 
-  int x=get_int(" x ");
-  int y=get_int(" y ");
+  long x=get_int(" x ");
+  long y=get_int(" y ");
    char operaction=get_char("operation (+,-,*,/): ");
 
          if(operaction=='+')
@@ -17,14 +17,14 @@ int main(void)
 
           {
 
-            printf("%i",x+y);
+            printf("%ld",x+y);
 
 
           }
 
           else if(operaction=='-')
          {
-            printf("%i",x-y);
+            printf("%ld",x-y);
 
           }
 
@@ -32,12 +32,12 @@ int main(void)
 
           else if(operaction=='*')
          {
-            printf("%i",x*y);
+            printf("%ld",x*y);
          }
 
           else if(operaction=='/')
          {
-            printf("%i",x/y);
+            printf("%ld",x/y);
          }
 
           else
