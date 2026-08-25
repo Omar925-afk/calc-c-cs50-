@@ -15,10 +15,10 @@ int main(void)
 	printf("you agreed\n");
   }
 
-       string answer2 = get_string("ARE U SURE? ");
+    char X = get_char("ARE U SURE? ");
 
 
-	   if (answer2 == 'y' || answer2 == 'Y')
+	   if (X == 'y' || X == 'Y')
          {
 	      printf("you are accepted\n");
 	   }
