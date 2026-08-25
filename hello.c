@@ -1,2 +1,2 @@
 
-char *get_string("whats ur name?")
+get_string("whats ur name?")
