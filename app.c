@@ -3,25 +3,21 @@
 int main(void)
 {
 
-     int x = get_int("x: ");
-     int y = get_int("y: ");
+      int x = get_int("x: ");
+    int y = get_int("y: ");
+    char operation = get_char("Operation (+ or *): ");
 
-       int answer = get_int("x+y || x*y: ");
-
-       if (x + y)
-       {
-
-     printf("%i\n", x + y);
-
-       }
-
-            if (x * y )
-       {
-
-     printf("%i\n", x * y);
-
-       }
-
-
+    if (operation == '+')
+    {
+        printf("%i\n", x + y);
+    }
+    else if (operation == '*')
+    {
+        printf("%i\n", x * y);
+    }
+    else
+    {
+        printf("Invalid operation\n");
+    
 }
 
