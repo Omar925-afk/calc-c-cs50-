@@ -8,14 +8,14 @@ int main(void)
 
        int answer = get_int("answer:, x+y or x*y: ");
 
-       if (x + y == answer)
+       if (x + y)
        {
 
      printf("%i\n", x + y);
 
        }
 
-            if (x * y == answer)
+            if (x * y )
        {
 
      printf("%i\n", x * y);
