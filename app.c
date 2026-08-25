@@ -5,7 +5,7 @@ int main(void)
 
       int x = get_int("x: ");
     int y = get_int("y: ");
-    char operation = get_char("Operation (+ or *): ");
+    char operation = get_char("Operation (+ or * or /): ");
 
     if (operation == '+')
     {
@@ -17,7 +17,7 @@ int main(void)
     }
     else
     {
-        printf("Invalid operation\n");
+        printf("%i\n", x / y);
 
 }
 }
