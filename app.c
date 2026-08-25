@@ -9,14 +9,14 @@ int main(void)
     	 printf("Hello, %s\n", answer );
 
 
-		 int x=get_int("enter a number: ");
+		 int x=get_int("enter x: ");
          int y=4;
 
        if (x<y)
 
 	   {
 
-           prrintf("x is less than y\n");
+           printf("x is less than y\n");
 
 
 
