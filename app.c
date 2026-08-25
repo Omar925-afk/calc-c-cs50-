@@ -17,27 +17,27 @@ int main(void)
 
           {
 
-            printf("%f",x+y);
+             result = x + y;
 
 
           }
 
           else if(operaction=='-')
          {
-            printf("%f",x-y);
+            result = x - y;
 
-          }
+         }
 
 
 
           else if(operaction=='*')
          {
-            printf("%f",x*y);
+             result = x * y;
          }
 
           else if(operaction=='/')
          {
-            printf("%f  ",x/y);
+             result = x / y;
          }
 
           else
