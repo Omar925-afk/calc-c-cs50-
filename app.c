@@ -14,6 +14,15 @@ int main(void)
   {
 	printf("you agreed\n");
   }
+
+       string answer2 = get_string("ARE U SURE? ");
+
+
+	   if (answer2 == "yes" || answer2 == "YES")
+         {
+	      printf("you are accepted\n");
+	   }
+
   else if (c == 'n' || c == 'N')
   {
 	printf("you disagreed\n");
