@@ -3,8 +3,11 @@
 int main(void)
 {
 
+      string answer = get_string("what is ur name? ")
+
+	  printf("Hello, %s\n", answer );
+
+	  if(x)
 
 
-
-	
 }
