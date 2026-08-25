@@ -17,7 +17,7 @@ int main(void)
     }
     else
     {
-        printf("%i\n", x / y);
+        printf("%i\n", x / y); 
 
 }
 }
