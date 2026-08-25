@@ -12,15 +12,17 @@ int main(void)
   int y=get_int(" y ");
    char operaction=get_char("operation (+,-,*,/): ");
 
-         if(operachion=='+')
-         [
+         if(operaction=='+')
+
+
+          {
 
             printf("%i",x+y);
 
 
-         ]
+          }
 
-          else if(operachion=='-')
+          else if(operaction=='-')
          {
             printf("%i",x-y);
 
@@ -28,12 +30,12 @@ int main(void)
 
 
 
-          else if(operachion=='*')
+          else if(operaction=='*')
          {
             printf("%i",x*y);
          }
 
-          else if(operachion=='/')
+          else if(operaction=='/')
          {
             printf("%i",x/y);
          }
@@ -41,4 +43,5 @@ int main(void)
           else
          {
             printf("Invalid operation");
-         }  
+         }
+        }
