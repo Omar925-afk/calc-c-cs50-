@@ -18,7 +18,7 @@ int main(void)
        string answer2 = get_string("ARE U SURE? ");
 
 
-	   if (answer2 == "yes" || answer2 == "YES")
+	   if (answer2 == 'y' || answer2 == 'Y')
          {
 	      printf("you are accepted\n");
 	   }
