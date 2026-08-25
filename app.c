@@ -6,14 +6,16 @@ int main(void)
      int x = get_int("x: ");
      int y = get_int("y: ");
 
-       if (x + y)
+       int answer = get_int("answer:, x+y or x*y: ");
+
+       if (x + y == answer)
        {
 
      printf("%i\n", x + y);
 
        }
 
-            if (x * y)
+            if (x * y == answer)
        {
 
      printf("%i\n", x * y);
