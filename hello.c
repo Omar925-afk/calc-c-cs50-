@@ -1,7 +1,2 @@
-#include <stdio.h>
 
-int main(void)
-{
-	printf("love!\n");
-	return 0;
-}
+char *get_string("whats ur name?")
