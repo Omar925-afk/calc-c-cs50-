@@ -3,7 +3,7 @@
 int main(void)
 {
 
-int x =9;
+int x =get_int("enter x\n ");
 int y=5;
 
    if (x<y)
@@ -26,7 +26,7 @@ int y=5;
 	  }
 
 
-	       else (x==y)
+	       else
 
       {
 
