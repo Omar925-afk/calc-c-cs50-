@@ -2,6 +2,8 @@
 #include <cs50.h>
 int main(void) {
 
-    printf("Hello, World!\n");
+   string answer = get_string("what is ur name? ");
+
+   printf("hello,%s,\n", answer);
 
 }
