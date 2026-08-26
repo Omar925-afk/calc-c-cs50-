@@ -7,7 +7,7 @@ int main(void) {
           char answer = get_char("do youagree ? (y/n): ");
 
 
-           if (answer =='y || answer == 'Y')
+           if (answer =='y' || answer == 'Y')
 
 
              {
@@ -26,7 +26,7 @@ int main(void) {
 
              {
 
-                  printf ("you disagreed\n");  
+                  printf ("you disagreed\n");
 
 
     }
