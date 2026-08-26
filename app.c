@@ -45,7 +45,7 @@ int main(void)
 
                       {
 
-                              printf("%i\n", x/y);
+                              printf("%f\n",(float) x/y);
 }
 
 
