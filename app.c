@@ -10,9 +10,35 @@ int main(void)
         if (opertation == '+')
         {
 
-              printf("%i\n", x+y); 
+              printf("%i\n", x+y);
 
 
 
         }
+              else if (operation == '-')
+        {
+              printf("%i\n", x-y);
+
+
+
+
+        }
+              else if (operation == '*')
+        {
+              printf("%i\n", x*y);
+
+
+
+
+        }
+              else if (operation == '/')
+        {
+              printf("%i\n", x/y);
+
+
+
+              
+
+
+
 }
