@@ -6,5 +6,13 @@ int main(void)
 
        int x= get_int("enter a number: ");
        int y= get_int("enter another number: ");
-       char operation = get_char("
+       char operation = get_char(operation: +, -, *, /): ");
+        if (opertation == '+')
+        {
+
+              printf("%i\n", x+y); 
+
+
+
+        }
 }
