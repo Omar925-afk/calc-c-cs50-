@@ -30,4 +30,43 @@ int main(void)
 
 
     }
+
+
+    string name = get_string("what is ur name? ");
+
+      int x = get_int("enter x: ");
+      int y = get_int("enter y: ");
+
+       char opertion = get_char("enter operation(+,-,*,/): ");
+
+        if (opertion == '+')
+        {
+
+
+
+            printf("%i\n", x+y);
+
+        }
+        else if (opertion == '-')
+        {
+
+            printf("%i\n", x-y);
+
+        }
+        else if (opertion == '*')
+        {
+
+            printf("%i\n", x*y);
+
+        }
+        else if (opertion == '/')
+        {
+
+            printf("%f\n",(float) x/y);
+
+        }
+
+
+
+
 }
