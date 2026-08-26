@@ -29,7 +29,7 @@ int main(void)
                   printf ("you disagreed\n");
 
 
-    }
+    } 
 
 
     string name = get_string("what is ur name? ");
