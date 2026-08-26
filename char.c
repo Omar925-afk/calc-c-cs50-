@@ -22,4 +22,11 @@ int main(void) {
              }
 
 
+             else if (answer == 'n' ||  answer == 'N')
+
+             {
+
+                  printf ("you disagreed\n");  
+
+
     }
