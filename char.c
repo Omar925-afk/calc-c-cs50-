@@ -1,1 +1,15 @@
-#
+#include <stdio.h>
+#include <cs50.h>
+int main(void) {
+
+    {
+
+          char answer = get_char("do youagree ? (y/n): ");
+
+
+           if (answer =='y || answer == 'Y')
+            
+
+
+
+    }
