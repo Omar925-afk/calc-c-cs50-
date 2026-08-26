@@ -4,10 +4,13 @@ int main(void)
 
 {
 
+
+          string name = get_string("what is ur name? ");
+
        int x= get_int("enter a number: ");
        int y= get_int("enter another number: ");
-       char operation = get_char(operation: +, -, *, /): ");
-        if (opertation == '+')
+       char operation = get_char("enter an operation (+, -, *, /): ");
+        if (operation == '+')
         {
 
               printf("%i\n", x+y);
@@ -16,28 +19,34 @@ int main(void)
 
         }
               else if (operation == '-')
-        {
-              printf("%i\n", x-y);
+
+              {
+
+                      printf("%i\n", x-y);
 
 
 
-
-        }
-              else if (operation == '*')
-        {
-              printf("%i\n", x*y);
+              }
+                 else if (operation == '*')
 
 
+                 {
 
 
-        }
-              else if (operation == '/')
-        {
-              printf("%i\n", x/y);
+                          printf("%i\n", x*y);
 
 
 
-              
+                 }
+
+
+
+                      else if (operation == '/')
+
+                      {
+
+                              printf("%i\n", x/y);
+}
 
 
 
