@@ -6,7 +6,10 @@ int main(void)
 
     for (int i =0; i<100; i++)
     {
-         printf("love you ");
+        for (int j =0; j<100; j++)
+        {
+            printf("love you\n ");
+        }
     }
 
 
