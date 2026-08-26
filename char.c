@@ -62,7 +62,7 @@ int main(void)
         else if (opertion == '/')
         {
 
-            printf("%f\n",(float) x/y);
+            printf("%0.2f\n",(float) x/y);
 
         }
 
