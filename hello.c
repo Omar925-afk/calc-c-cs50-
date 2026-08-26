@@ -11,7 +11,7 @@ int main(void)
             printf("love you\n ");
         }
     }
-
+          while( i =2)
 
 
 
