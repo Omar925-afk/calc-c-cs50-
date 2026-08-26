@@ -48,6 +48,6 @@ int main(void)
                               printf("%f\n",(float) x/y);
 }
 
+           
 
-       
 }
