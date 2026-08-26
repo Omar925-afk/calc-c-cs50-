@@ -8,8 +8,21 @@ int main(void) {
 
 
            if (answer =='y || answer == 'Y')
-            
 
+
+             {
+
+
+                  printf ("you agreed\n");
+
+
+
+
+
+
+
+
+             }
 
 
     }
