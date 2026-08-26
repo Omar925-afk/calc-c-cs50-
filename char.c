@@ -28,8 +28,8 @@ int main(void)
 
                   printf ("you disagreed\n");
 
-
-    } 
+                return 0;
+    }
 
 
     string name = get_string("what is ur name? ");
