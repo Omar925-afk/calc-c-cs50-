@@ -12,7 +12,7 @@ int main (void)
 
     }
 
-           printf("averge is %0.2f ", (float) (score[0] + score[2]+score[3] ) /3 );
+           printf("averge is %0.2f ", (float) (score[0] + score[1]+score [2] ) /3 );
 
 
 }
