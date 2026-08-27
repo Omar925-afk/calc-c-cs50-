@@ -3,9 +3,9 @@
 int main (void)
 {
 
-  int score[3];
+  int score[n];
 
-  for(int i=0; i<3; i++)
+  for(int i=0; i<n; i++)
     {
         score[i] =get_int("score: :");
 
