@@ -2,7 +2,7 @@
 #include <cs50.h>
 int main (void)
 {
- int=
+ int n =3;
   int score[n];
 
   for(int i=0; i<n; i++)
@@ -12,7 +12,7 @@ int main (void)
 
     }
 
-           printf("averge is %0.2f ", (score[0] + score[1]+score [2] ) (float)  /n );
+           printf("averge is %0.2f ", (float)  (score[0] + score[1]+score [2] )  /n );
 
 
 }
