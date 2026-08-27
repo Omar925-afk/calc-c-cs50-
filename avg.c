@@ -5,7 +5,11 @@ int main (void)
 
   int scores [3];
 
-     printf("averge is %f\n",(float) );
+   score [0]=72;
+   score [1]=73;
+   score [2]=33
+
+     printf("averge is %f\n",(float) () );
 
 
 
