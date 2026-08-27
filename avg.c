@@ -7,9 +7,12 @@ int main (void)
 
   for(int i=0; i<3; i++)
     {
-     printf("averge is %0.3f\n",(float) (scores [0] + scores [1] +scores [2]) /3);
+        score[i] =get_int("score: :")
 
 
     }
+
+           printf("averge is %0.2f ", (float) )
+
 
 }
