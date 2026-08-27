@@ -2,7 +2,7 @@
 #include <cs50.h>
 int main (void)
 {
-
+ int=
   int score[n];
 
   for(int i=0; i<n; i++)
