@@ -9,7 +9,7 @@ int main (void)
    score [1]=73;
    score [2]=33
 
-     printf("averge is %f\n",(float) () );
+     printf("averge is %f\n",(float) (score [0] + score [1] +score [2] /3) );
 
 
 
